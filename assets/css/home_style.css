@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding-bottom: 1px;
+    /* padding: 0; */
+}
+@font-face{
+    font-family: "Friendly Schoolmates";
+    src: url("./Friendly\ Schoolmates.otf");
+}
+@font-face{
+    font-family: "Letters for Learners";
+    src: url("./Letters\ for\ Learners.ttf")
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h1, h2{
+    color: darkred;
+}
+h1{
+    font-size: 72px;
+    font-family: "Friendly Schoolmates", sans-serif;
+}
+h2{
+    font-size: 48px;
+    font-family: "Friendly Schoolmates", sans-serif;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+}
+a:hover{
+    color: red;
+}
+
+nav{
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    padding: 10px;
+}
+#hero{
+    background: url('/assets/imgs/fond-1900-1200.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#bandeau{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(255,255,255,.5);
+}
+#contenu{
+    text-align: center;
+    padding: 5%;
+}
+#contenu a{
+    color: darkred;
+    border: 1.5px solid darkred;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Friendly Schoolmates", sans-serif;
+    font-size: 36px;
+    transition: 1s;
+}
+#contenu a:hover{
+    color: whitesmoke;
+    background-color: darkred;
+    text-decoration: none;
+}
+#contenu img:hover{
+
+    transform: rotate(360deg) scale(1.4);
+}
+#contenu img{
+    transition: 1.5s;
+}
+#apropos{
+    display: flex;
+    align-items: center;
+}
+#apropos_image{
+    flex: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+#apropos_texte{
+    font-family: "Letters for Learners", sans-serif;
+    font-size: 46px;
+    flex: 2;
+    padding: 20px;
+    justify-content: flex-end; 
+
+}
+
+#services{
+    display: flex;
+    background-color: dimgrey;
+    color: whitesmoke;
+    padding : 20px;
+    text-align: center;
+}
+.services_item p{
+    text-align: justify;
+    padding: 20px;
+}

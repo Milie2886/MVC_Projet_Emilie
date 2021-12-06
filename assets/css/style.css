@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding-bottom: 1px;
+    /* padding: 0; */
+}
+@font-face{
+    font-family: "Friendly Schoolmates";
+    src: url("./Friendly\ Schoolmates.otf");
+}
+@font-face{
+    font-family: "Letters for Learners";
+    src: url("./Letters\ for\ Learners.ttf")
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-size: 72px;
+    font-family: "Friendly Schoolmates", sans-serif;
+}
+h2{
+    font-size: 48px;
+    font-family: "Friendly Schoolmates", sans-serif;
+}

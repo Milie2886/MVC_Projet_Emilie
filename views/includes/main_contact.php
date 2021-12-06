@@ -1,0 +1,1 @@
+<h2 class="text-center">Cliquez <a class="contact" href="mailto:emiliegregory@hotmail.com?subject=Demande de renseignements">ici</a> pour me contacter!</h2>
