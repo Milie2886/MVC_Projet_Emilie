@@ -12,7 +12,7 @@
                 </div>
                 <div class="metadata text-center p-2"><?= $jeu['nom']?></div>
                 <div class="metadata text-truncate"><?= $jeu['description']?></div>
-                <a href=<?= $jeu['id']?> class="btn btn-primary mb-3">+ de détails</a>
+                <a href="?page=jeu&id=<?= $jeu['id'] ?>" class="btn btn-primary mb-3">+ de détails</a>
             </div>
             </div>
         <?php endforeach; ?>

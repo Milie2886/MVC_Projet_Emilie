@@ -3,7 +3,7 @@
 use JeuxRepository;
 
 $jr = new JeuxRepository($pdo);
-$statement= $jr->findall();
+$statement= $jr->findAll();
 $jeux = $statement->fetchAll();
 
 ?> 

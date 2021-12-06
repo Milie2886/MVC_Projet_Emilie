@@ -1,0 +1,9 @@
+{
+    "name": "emilie/mvc",
+    "description": "MVC PHP sans framework",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

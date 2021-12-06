@@ -5,7 +5,7 @@
         <h2>A quoi allez vous jouer?</h2>
         <br/>
         <br/>
-        <?= $hbt->bt4Li("?page=user", "Connexion") ?>
+        <a href="?page=user">Commencer</a>
     </div> <!--EO contenu-->
 </div> <!--EO bandeau-->
 </section> <!--EO section hero-->

@@ -2,8 +2,9 @@
 
 use JeuxRepository;
 
-$oneJeu = new JeuxRepository($pdo);
-$statement= $oneJeu->find($jeuId);
+
+$jeux = new JeuxRepository($pdo);
+$statement= $jeux->find($_GET['id']);
 $jeu = $statement->fetch();
 
 ?> 
