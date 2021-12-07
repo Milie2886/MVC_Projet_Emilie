@@ -10,9 +10,10 @@
                 <div class="zoom">
                     <img src=<?= $jeu['image_name']?> alt="image" class="img-fluid w-100 h-100 rounded">
                 </div>
-                <div class="metadata text-center p-2"><?= $jeu['nom']?></div>
-                <div class="metadata text-truncate"><?= $jeu['description']?></div>
-                <a href="?page=jeu&id=<?= $jeu['id'] ?>" class="btn btn-primary mb-3">+ de détails</a>
+                <div class="metadata text-center pt-2">
+                    <h3><?= $jeu['nom']?></h3>
+                </div>
+                <a href="?page=jeu&id=<?= $jeu['id'] ?>" class="btn btn-primary w-100 mb-2">+ de détails</a>
             </div>
             </div>
         <?php endforeach; ?>

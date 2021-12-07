@@ -1,6 +1,7 @@
 <?php 
 // inclusion des fichiers pricipaux
 //caucroge@hotmail.fr
+require_once "./vendor/autoload.php";
 require_once "_config/config.php";
 require_once "_config/db.php";
 require_once "_helper/HelperBootstrap.php";
