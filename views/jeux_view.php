@@ -13,6 +13,7 @@
 <?php 
     require "includes/_nav.php";
     require "includes/main_jeux.php";
+    require "includes/_footer.php";
     require "includes/_script.php";
 ?>
     
